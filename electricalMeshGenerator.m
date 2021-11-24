@@ -3,7 +3,7 @@ function [meshMatrix] = electricalMeshGenerator(numberOfElements)
 %UNTITLED Summary of this function goes here
 % Setting the x, y and z cordinates
 x_cord = linspace(0,0.1,numberOfElements+1) ; 
-y_cord = linspace(0, 0.3, numberOfElements);
+y_cord = linspace(0, 0.3, numberOfElements+10);
 %set the z coordinates to zero because we have none 
 %z_cord = linspace (0,0, numberOfElements); 
 
